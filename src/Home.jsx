@@ -60,7 +60,7 @@ const previous = ()=>{
         <h1 className="text-center fs-1 mt-md-5">Loading...</h1>
       ) : (
         <div className="d-flex flex-column ">
-          <div className="row d-flex container m-auto p-2 mt-4 cardContainer">
+          <div className="row d-flex container m-auto cardContainer">
             {currentPosts.map((item) => {
               return <Follower key={item.id} item={item} />;
             })}
