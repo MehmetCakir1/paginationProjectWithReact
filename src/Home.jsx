@@ -57,7 +57,7 @@ const previous = ()=>{
   return (
     <div>
       {loading ? (
-        <h1 className="text-center fs-1"><img src="images/loading.gif" alt="loading" /> </h1>
+        <div className="text-center"><img src="images/loading.gif" alt="loading" /> </div>
       ) : (
         <div className="d-flex flex-column ">
           <div className="row d-flex container m-auto cardContainer">
